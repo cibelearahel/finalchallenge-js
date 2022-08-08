@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
 
     <link rel="stylesheet" href="style.css">
     
@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <h2>Cadastro do aluno</h2>
+    <h1>Cadastro do aluno</h1>
 
 <form name = "Formu" method="post" action = "mailto:sarah1.salehi@gmail.com" 
                                     onSubmit = "return validar(document.Formu)">
@@ -21,11 +21,11 @@
 
 <tr>
 
-    <td> <strong> Nome: </strong> </td>
+    <td> <h3> Nome: </h3> </td>
 
      <td> <input type = "text" name="nome" size = "40" > </td>
 
-     <td> <strong> Idade: </strong> </td>
+     <td> <h3> Idade: </h3> </td>
 
      <td> <input type = "number" name= "idade" > </td>
 
@@ -35,20 +35,19 @@
 <br>
 <table>
     <tr>
-        <td> <strong> Matrícula: </strong> </td>
+        <td> <h3> Matrícula: </h3> </td>
 
         <td> <input type = "number" name= "matricula" > </td>
 
-        <td> <strong> Endereço: </strong> </td>
+        <td> <h3> Endereço: </h3> </td>
 
         <td> <input type = "text" name= "endereco" size = "40" > </td>
     </tr>
 </table>
 
-<br>
 <tr>
 
-    <td> <strong> Curso: </strong> </td>
+    <td> <h3> Curso: </h3> </td>
 
 </tr>
 <table>
@@ -64,13 +63,11 @@
 </table>
 
 <br>
+<table>
 <tr>
 
-    <td> <strong> Turno: </strong> </td>
+    <td> <h3> Turno: </h3> </td>
 
-</tr>
-
-<tr>
 
     <td> <input type = "radio" name = "hora" /> Matutino </td>
 
@@ -82,12 +79,17 @@
 
 </table>
 
-<input type="Button"  value="cadastrar" onclick="aluno.cadastrar(this.form)">
+<table>
+    <tr>
+        
 
-<button onclick="aluno.cadastrar(this.form)">Cadastrar</button>
+        <button onclick="aluno.cadastrar(this.form)">Cadastrar</button>
 
 <input type = "reset" value = "Limpar" />
+    </tr>
+</table>
 
-<p>Confira o <a href="file:///C:/Users/callidus/Desktop/Sarah/desafiofinal/proposta.html" target="_blank" rel="noopener noreferrer">proposta</a></p>
+<br>
+<p>Confira a <a href="file:///C:/Users/callidus/Desktop/Sarah/desafiofinal/proposta.html" target="_blank" rel="noopener noreferrer">proposta</a></p>
 </body>
 </html>
